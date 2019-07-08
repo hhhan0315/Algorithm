@@ -50,5 +50,5 @@ int main() {
 	if (overlap >= 2) printf("?");
 	else printf("%c", max_index + 65);
 	return 0;
-	//ascii 코드(숫자 : '0'~'9' = 48~57)  (대문자 : 'A'~'Z' = 65~90)  (소문자 : 'a'~'z' = 97~122)
+	//ascii code (number : '0'~'9' = 48~57)  (capital : 'A'~'Z' = 65~90)  (small letter : 'a'~'z' = 97~122)
 }
