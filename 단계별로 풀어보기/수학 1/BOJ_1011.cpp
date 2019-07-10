@@ -4,7 +4,7 @@ int main() {
 	scanf("%d", &n);
 
 	for (int i = 0; i<n; i++) {
-		unsigned int start, end; //부호가 항상 양수
+		unsigned int start, end; //unsigned int : always plus int
 		scanf("%d %d", &start, &end);
 		int a = 1;
 		while (1) {
