@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 int main() {
 	int num;
 	scanf("%d", &num);
@@ -26,4 +26,4 @@ int main() {
 	}
 	return 0;
 }
-//¹öºíÁ¤·Ä È°¿ë
+//ë²„ë¸”ì •ë ¬ í™œìš©
