@@ -29,6 +29,7 @@ int main() {
 	cout << arr[mid] << "\n";
 
 	//최빈값
+	//vector 생성 후 조건에 맞는 값을 넣어주었고 v.clear()를 해주지 않아서 오류가 났었다.
 	int mode_max=0;
 	int mode_num=0;
 	vector <int> v;
