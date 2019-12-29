@@ -20,5 +20,4 @@ int main() {
 
 	cout << dp[N];
 	return 0;
-	//dp[n] : n개 카드 구매 최대 가격
 }
