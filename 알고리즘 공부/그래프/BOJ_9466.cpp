@@ -24,8 +24,9 @@ void dfs(int node) {
 	if (!visited[next])
 		dfs(next);
 	else if (!done[next]) {
-		for (int i = next; node != i; i = arr[i])
+		for (int i = next; i != node; i = arr[i]) {
 			cnt++;
+		}
 		cnt++;
 	}
 	done[node] = 1;
@@ -51,3 +52,4 @@ int main() {
 	}
 	return 0;
 }
+//cf)https://hibee.tistory.com/152
