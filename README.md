@@ -8,5 +8,5 @@ Algorithmic Problem Solving Strategies<br>
 https://www.algospot.com/
 
 # C
-Learn C Program Language
+Learn C Program Language<br>
 https://www.inflearn.com/course/following-c#
