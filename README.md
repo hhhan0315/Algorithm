@@ -10,6 +10,6 @@ Algorithmic Problem Solving Strategies<br>
 https://www.algospot.com/
 
 # C
-따라배우는 C
+따라배우는 C<br>
 Learn C Program Language<br>
 https://www.inflearn.com/course/following-c#
