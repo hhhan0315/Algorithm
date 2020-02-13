@@ -1,11 +1,11 @@
 # BOJ
-단계별로 풀어보기<br>
-알고리즘 공부<br>
+[단계별로 풀어보기](https://github.com/hhhan0315/Algorithm/tree/master/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0)<br>
+[알고리즘 공부](https://github.com/hhhan0315/Algorithm/tree/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B3%B5%EB%B6%80)<br>
 BaekJoon Online Judge<br>
-Algorithm Study with C++<br>
 https://www.acmicpc.net/
 
 # Algospot
+[알고스팟](https://github.com/hhhan0315/Algorithm/tree/master/%EC%95%8C%EA%B3%A0%EC%8A%A4%ED%8C%9F)<br>
 Algorithmic Problem Solving Strategies<br>
 https://www.algospot.com/
 
