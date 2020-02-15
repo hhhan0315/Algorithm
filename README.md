@@ -27,3 +27,8 @@ https://www.inflearn.com/course/following-c-plus#
 - [6. 행렬, 문자열, 포인터, 참조](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/6.md)
 - [7. 함수](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/7.md)
 - [8. 객체지향의 기초](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/8.md)
+
+
+# IT work for Algorithm study
+it 취업을 위한 알고리즘 입문 (with C++) : 코딩테스트 대비 <br>
+https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98#
