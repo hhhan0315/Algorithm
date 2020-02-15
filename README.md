@@ -29,6 +29,6 @@ https://www.inflearn.com/course/following-c-plus#
 - [8. 객체지향의 기초](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/8.md)
 
 
-# Algorithm study 
+# Algorithm study for IT work
 it 취업을 위한 알고리즘 입문 (with C++) : 코딩테스트 대비 <br>
 https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98#
