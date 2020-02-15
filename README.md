@@ -10,12 +10,12 @@ Algorithmic Problem Solving Strategies<br>
 https://www.algospot.com/
 
 # C
-따라배우는 C<br>
+[following-c](https://github.com/hhhan0315/Algorithm/tree/master/following_c)<br>
 Learn C Program Language<br>
 https://www.inflearn.com/course/following-c#
 
 # C++
-따라배우는 C++<br>
+[following-c_plus](https://github.com/hhhan0315/Algorithm/tree/master/following_c_plus)<br>
 Learn C++ Program Language<br>
 https://www.inflearn.com/course/following-c-plus#
 - [0. 시작해봅시다](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/0.md)
