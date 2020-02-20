@@ -27,7 +27,18 @@ https://www.inflearn.com/course/following-c-plus#
 - [6. 행렬, 문자열, 포인터, 참조](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/6.md)
 - [7. 함수](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/7.md)
 - [8. 객체지향의 기초](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/8.md)
-
+- [9. 연산자 오버로딩](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/9.md)
+- [10. 객체들 사이의 관계에 대해](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/10.md)
+- [11. 상속](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/11.md)
+- [12. 가상 함수들](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/12.md)
+- [13. 템플릿](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/13.md)
+- [14. 예외 처리](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/14.md)
+- [15. 의미론적 이동과 스마트 포인터](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/15.md)
+- [16. 표준 템플릿 라이브러리](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/16.md)
+- [17. std::string 문자열 클래스](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/17.md)
+- [18. 입력과 출력](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/18.md)
+- [19. 모던 C++ 필수 요소들](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/19.md)
+- [20. 중급 프로그래머들의 상식](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/20.md)
 
 # Algorithm study for IT work
 it 취업을 위한 알고리즘 입문 (with C++) : 코딩테스트 대비 <br>
