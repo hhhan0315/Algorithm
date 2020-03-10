@@ -43,3 +43,14 @@ https://www.inflearn.com/course/following-c-plus#
 # Algorithm study for IT work
 it 취업을 위한 알고리즘 입문 (with C++) : 코딩테스트 대비 <br>
 https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98#
+- [Part1. 코드 구현력 기르기_1](https://github.com/hhhan0315/Algorithm/blob/master/study_for_IT/1_1.md)
+- [Part1. 코드 구현력 기르기_2](https://github.com/hhhan0315/Algorithm/blob/master/study_for_IT/1_2.md)
+- [Part1. 코드 구현력 기르기_3](https://github.com/hhhan0315/Algorithm/blob/master/study_for_IT/1_3.md)
+- [Part2. 정렬, 이분탐색, 투포인트, 스택_1](https://github.com/hhhan0315/Algorithm/blob/master/study_for_IT/2_1.md)
+- [Part2. 정렬, 이분탐색, 투포인트, 스택_2](https://github.com/hhhan0315/Algorithm/blob/master/study_for_IT/2_2.md)
+- [Part 3 재귀, DFS, BFS_1](https://github.com/hhhan0315/Algorithm/blob/master/study_for_IT/3_1.md)
+- [Part 3 재귀, DFS, BFS_2](https://github.com/hhhan0315/Algorithm/blob/master/study_for_IT/3_2.md)
+- [Part 4 그래프, DFS, BFS_1](https://github.com/hhhan0315/Algorithm/blob/master/study_for_IT/4_1.md)
+- [Part 4 그래프, DFS, BFS_2](https://github.com/hhhan0315/Algorithm/blob/master/study_for_IT/4_2.md)
+- [Part 5 동적 계획법_1](https://github.com/hhhan0315/Algorithm/blob/master/study_for_IT/5_1.md)
+- [Part 5 동적 계획법_2](https://github.com/hhhan0315/Algorithm/blob/master/study_for_IT/5_2.md)
