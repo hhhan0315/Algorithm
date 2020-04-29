@@ -3,7 +3,7 @@
 ```javascript
 array.pop(); // 배열의 뒤에서부터 삭제
 ```
-
+<hr>
 2. 배열의 내장함수
 
 ```javascript
@@ -11,25 +11,25 @@ array.splice(); // 배열의 요소를 삭제, 교체, 추가하여 변경
 array.splice(2, 0, 10000); //(start, deleteCount, item)
 //array[2]에서 0개 지우고 10000을 넣는다.
 ```
-
+<hr>
 3. 변수의 타입
 
 - typeof(arr)로 확인 가능하고 var arr=[100,200]; 인경우에는 object
-
+<hr>
 6. False
 
 - javascript는 NaN, "", 0, undefinde는 false로 취급
-
+<hr>
 9. concat을 활용한 출력 방법
 
 ```javascript
 var result = year.concat("/", month, "/", day, " ");
 ```
-
+<hr>
 10. 별 찍기
 
 - 입력 값을 const n = prompt('숫자 입력'); prompt를 활용해 입력 가능하다.
-
+<hr>
 12. 클래스 만들기
 
 ```javascript
@@ -45,7 +45,7 @@ const Wizard = class Wizard {
 };
 // 같이 클래스 선언이 가능하다.
 ```
-
+<hr>
 16. 로꾸거
 
 ```javascript
@@ -54,7 +54,7 @@ const reverseString = n.split("").reverse().join("");
 // reverse() : 배열을 reverse
 // join() : 배열 -> 문자열
 ```
-
+<hr>
 18. 평균 점수
 
 ```javascript
@@ -67,20 +67,20 @@ for (let i = 0; i < 3; i++) {
 console.log(Math.floor(sum / 3));
 // Math.floor 는 소수점을 모두 버린다.
 ```
-
+<hr>
 19. 제곱을 구하자
 
 - Math.pow(base, exponent)
-
+<hr>
 24. 대문자로 바꿔주세요
 
 - string.toUpperCase()
-
+<hr>
 30. 문자열 속 문자 찾기
 
 - string.indxOf()
 - data.indexOf(word) : data 중에 word의 첫번째 index의 위치를 반환, 없으면 -1 반환
-
+<hr>
 34. 오름차순
 
 ```javascript
@@ -93,7 +93,7 @@ array.sort(function(a,b)){
     return b-a;
 }
 ```
-
+<hr>
 35. factory 함수
 
 ```javascript
@@ -114,3 +114,4 @@ console.log(b(10)); //1000
 console.log(c(10)); //10000
 // factory 는 객체를 return하기 때문에 sq에 직접적으로 접근을 할 수 없다.
 ```
+<hr>
