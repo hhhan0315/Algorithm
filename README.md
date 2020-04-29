@@ -1,23 +1,19 @@
 # BOJ
 [단계별로 풀어보기](https://github.com/hhhan0315/Algorithm/tree/master/%EB%8B%A8%EA%B3%84%EB%B3%84%EB%A1%9C%20%ED%92%80%EC%96%B4%EB%B3%B4%EA%B8%B0)<br>
 [알고리즘 공부](https://github.com/hhhan0315/Algorithm/tree/master/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%20%EA%B3%B5%EB%B6%80)<br>
-BaekJoon Online Judge<br>
-https://www.acmicpc.net/
+[BaekJoon Online Judge](https://www.acmicpc.net/)
 
 # Algospot
 [알고스팟](https://github.com/hhhan0315/Algorithm/tree/master/%EC%95%8C%EA%B3%A0%EC%8A%A4%ED%8C%9F)<br>
-Algorithmic Problem Solving Strategies<br>
-https://www.algospot.com/
+[Algorithmic Problem Solving Strategies](https://www.algospot.com/)
 
 # C
 [following_c](https://github.com/hhhan0315/Algorithm/tree/master/following_c)<br>
-Learn C Program Language<br>
-https://www.inflearn.com/course/following-c#
+[인프런 Learn C Program Language](https://www.inflearn.com/course/following-c#)
 
 # C++
 [following_c_plus](https://github.com/hhhan0315/Algorithm/tree/master/following_c_plus)<br>
-Learn C++ Program Language<br>
-https://www.inflearn.com/course/following-c-plus#
+[인프런 Learn C++ Program Language](https://www.inflearn.com/course/following-c-plus#)
 - [0. 시작해봅시다](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/0.md)
 - [1. C++ 기초적 사용법](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/1.md)
 - [2. 변수와 기본적인 자료형](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/2.md)
@@ -41,8 +37,7 @@ https://www.inflearn.com/course/following-c-plus#
 - [20. 중급 프로그래머들의 상식](https://github.com/hhhan0315/Algorithm/blob/master/following_c_plus/20.md)
 
 # Algorithm study for IT work
-it 취업을 위한 알고리즘 입문 (with C++) : 코딩테스트 대비 <br>
-https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98#
+[인프런 it 취업을 위한 알고리즘 입문 (with C++) : 코딩테스트 대비](https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98#)
 - [Part1. 코드 구현력 기르기_1](https://github.com/hhhan0315/Algorithm/blob/master/study_for_IT/1_1.md)
 - [Part1. 코드 구현력 기르기_2](https://github.com/hhhan0315/Algorithm/blob/master/study_for_IT/1_2.md)
 - [Part1. 코드 구현력 기르기_3](https://github.com/hhhan0315/Algorithm/blob/master/study_for_IT/1_3.md)
@@ -57,8 +52,12 @@ https://www.inflearn.com/course/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98#
 
 # SWEA
 [SWEA](https://github.com/hhhan0315/Algorithm/tree/master/SWEA)<br>
-https://swexpertacademy.com/main/main.do
+[주소](https://swexpertacademy.com/main/main.do)
 
 # Programmers
-[프로그래머스](https://github.com/hhhan0315/Algorithm/tree/master/Programmers)<br>
-https://programmers.co.kr/
+[Programmers](https://github.com/hhhan0315/Algorithm/tree/master/Programmers)<br>
+[주소](https://programmers.co.kr/)
+
+# javascript
+[javascript](https://github.com/hhhan0315/algorithm/tree/master/javascript)<br>
+[제주 코딩 베이스캠프 JS 100제](http://www.paullab.co.kr/codefestival.html)
