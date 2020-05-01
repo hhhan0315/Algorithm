@@ -207,3 +207,19 @@ console.log(word.replace(/q/gi, "e"));
 ```
 
 <hr>
+42. 2020년
+
+```js
+function solution(a, b) {
+  const day = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+  const x = new Date("2020-" + a + "-" + b);
+  console.log(x); // Sun May 24 2020 00:00:00 GMT+0900 (대한민국 표준시)
+  console.log(x.getDay()); // 0
+  return day[x.getDay()]; // SUN
+}
+
+console.log(solution(5, 24));
+// 날짜와 시간은 현재 자바스크립트 코드가 동작하는 시스템에 따라 달라진다.
+```
+
+<hr>
