@@ -3,6 +3,7 @@
 ```javascript
 array.pop(); // 배열의 뒤에서부터 삭제
 ```
+
 <hr>
 2. 배열의 내장함수
 
@@ -11,25 +12,30 @@ array.splice(); // 배열의 요소를 삭제, 교체, 추가하여 변경
 array.splice(2, 0, 10000); //(start, deleteCount, item)
 //array[2]에서 0개 지우고 10000을 넣는다.
 ```
+
 <hr>
 3. 변수의 타입
 
 - typeof(arr)로 확인 가능하고 var arr=[100,200]; 인경우에는 object
 <hr>
+
 6. False
 
 - javascript는 NaN, "", 0, undefinde는 false로 취급
 <hr>
+
 9. concat을 활용한 출력 방법
 
 ```javascript
 var result = year.concat("/", month, "/", day, " ");
 ```
+
 <hr>
 10. 별 찍기
 
 - 입력 값을 const n = prompt('숫자 입력'); prompt를 활용해 입력 가능하다.
 <hr>
+
 12. 클래스 만들기
 
 ```javascript
@@ -45,6 +51,7 @@ const Wizard = class Wizard {
 };
 // 같이 클래스 선언이 가능하다.
 ```
+
 <hr>
 16. 로꾸거
 
@@ -54,6 +61,7 @@ const reverseString = n.split("").reverse().join("");
 // reverse() : 배열을 reverse
 // join() : 배열 -> 문자열
 ```
+
 <hr>
 18. 평균 점수
 
@@ -67,20 +75,24 @@ for (let i = 0; i < 3; i++) {
 console.log(Math.floor(sum / 3));
 // Math.floor 는 소수점을 모두 버린다.
 ```
+
 <hr>
 19. 제곱을 구하자
 
 - Math.pow(base, exponent)
 <hr>
+
 24. 대문자로 바꿔주세요
 
 - string.toUpperCase()
 <hr>
+
 30. 문자열 속 문자 찾기
 
 - string.indxOf()
 - data.indexOf(word) : data 중에 word의 첫번째 index의 위치를 반환, 없으면 -1 반환
 <hr>
+
 34. 오름차순
 
 ```javascript
@@ -93,6 +105,7 @@ array.sort(function(a,b)){
     return b-a;
 }
 ```
+
 <hr>
 35. factory 함수
 
@@ -114,4 +127,83 @@ console.log(b(10)); //1000
 console.log(c(10)); //10000
 // factory 는 객체를 return하기 때문에 sq에 직접적으로 접근을 할 수 없다.
 ```
+
+<hr>
+37. 반장 선거
+
+```javascript
+const array = prompt("이름을 입력해주세요.").split(" "); // 이름을 공백으로 구분해서 저장
+let result = {}; // object
+let winner = "";
+
+for (let index in array) {
+  let val = array[index];
+  result[val] = result[val] === undefined ? 1 : (result[val] = result[val] + 1);
+}
+// result[원범]=1; 이렇게 저장함
+
+winner = Object.keys(result).reduce(function (pre, value) {
+  return result[pre] > result[value] ? pre : value;
+});
+// reduce 사용, result object 중 가장 큰 값이 남는다.
+// Objects.keys() object의 key값들을 배열로 return
+
+console.log(`${winner}(이)가 총 ${result[winner]}표로 반장이 되었습니다.`);
+```
+
+<hr>
+38. 호준이의 아르바이트
+
+```js
+const scores = prompt("점수입력")
+  .split(" ")
+  .map(function (n) {
+    return parseInt(n, 10);
+  });
+// map : 배열내의 모든 요소 각각에 대하여 주어진 함수를 호출한 결과를 모아 새로운  배열 반환
+
+scores.sort(function (a, b) {
+  return a - b;
+});
+
+// scores.sort((a, b) => {
+//   return a-b;
+// });
+// 오름차순 정렬
+
+let count = 0;
+let arr = [];
+
+while (arr.length < 3) {
+  let n = scores.pop();
+  if (!arr.includes(n)) {
+    arr.push(n);
+  }
+  count += 1;
+}
+
+console.log(scores);
+```
+
+<hr>
+39. 오타 수정하기
+
+```js
+//1. 함수 사용
+const word = prompt("입력하세요.");
+
+function replaceAll(str, searchStr, replaceStr) {
+  return str.split(searchStr).join(replaceStr);
+}
+// q에서 자르고 그곳에 e를 붙인다.
+
+console.log(replaceAll(word, "q", "e"));
+
+//2. 정규식 사용
+const word = prompt("입력하세요.");
+
+console.log(word.replace(/q/gi, "e"));
+// g : global (전체), i : 대소문자 무시 (ignore)
+```
+
 <hr>
