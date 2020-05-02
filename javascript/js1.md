@@ -223,3 +223,57 @@ console.log(solution(5, 24));
 ```
 
 <hr>
+45. getTime() 함수 사용하기
+
+```js
+let date = new Date().getTime(); // 1970/1/1 00:00:00 기준 ms
+date = date / 1000; // ms * 1000 = 1s
+date = date / 60; // 1s * 60 = 1minute
+date = date / 60; // 1m * 60 = 1hour
+date = date / 24; // 1h * 24 = 1day
+date = date / 365; // 1d * 365 = 1year
+date = date + 1970; // 해당 year + 기준 1970 = 2020 (현재 연도)
+date = Math.floor(date);
+
+console.log(date);
+// 시간 카운터 프로그램 만들 때 유용하게 사용
+```
+
+<hr>
+47. set 자료형의 응용
+
+```js
+// set은 중복되는 값을 가지지 않는 값들의 리스트
+let result = new Set();
+for (let val in people) {
+  result.add(people[val]);
+}
+```
+
+<hr>
+50. 버블 정렬 구현하기
+
+```js
+function bubble(arr) {
+  let result = arr.slice();
+
+  for (let i = 0; i < result.length - 1; i++) {
+    for (let j = 0; j < result.length - i; j++) {
+      if (result[j] > result[j + 1]) {
+        let temp = result[j];
+        result[j] = result[j + 1];
+        result[j + 1] = temp;
+      }
+    }
+  }
+  return result;
+}
+
+const items = prompt("입력해주세요.")
+  .split(" ")
+  .map((n) => {
+    return parseInt(n, 10);
+  });
+
+console.log(bubble(items));
+```
