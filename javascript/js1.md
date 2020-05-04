@@ -1,3 +1,4 @@
+<hr>
 1. 배열의 삭제
 
 ```javascript
