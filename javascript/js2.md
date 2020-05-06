@@ -103,3 +103,57 @@ console.log(route.length);
 ```
 
 <hr>
+56. 객체의 함수 응용
+
+```js
+const nationWidth = {
+  korea: 220877,
+  Rusia: 17098242,
+  China: 9596961,
+  France: 543965,
+  Japan: 377915,
+  England: 242900,
+};
+
+const w = nationWidth["korea"];
+delete nationWidth["korea"];
+
+const entry = Object.entries(nationWidth); // object key, value를 모두 넣기
+const values = Object.values(nationWidth); // object value만 넣기
+
+let gap = Math.max.apply(null, values); // 최대값 구하기
+let item = [];
+
+for (let i in entry) {
+  if (gap > Math.abs(entry[i][1] - w)) {
+    gap = Math.abs(entry[i][1] - w);
+    item = entry[i];
+  }
+  // abs : 절대값
+}
+
+console.log(item[0], item[1] - 220877);
+```
+
+<hr>
+57. 1의 개수
+
+```js
+let cnt = 0;
+
+for (let i = 0; i <= 1000; i++) {
+  let tmp = i;
+  while (tmp > 0) {
+    let num = tmp % 10;
+    if (num === 1) {
+      cnt++;
+    }
+    tmp = parseInt(tmp / 10, 10);
+  }
+  // Int형으로 바꿔주는 것이 중요했다.
+}
+
+console.log(cnt);
+```
+
+<hr>
