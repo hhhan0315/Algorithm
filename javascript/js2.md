@@ -157,3 +157,32 @@ console.log(cnt);
 ```
 
 <hr>
+58. 콤마 찍기
+
+```js
+// const num = "123456789";
+// const tmp = parseInt(num, 10);
+// console.log(tmp.toLocaleString());
+
+const num = "123456789".split("");
+let result = "";
+
+function check(arr) {
+  let cnt = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (cnt !== 3) {
+      result = result + arr[i];
+      cnt++;
+    } else if (cnt === 3) {
+      result += ",";
+      result += arr[i];
+      cnt = 1;
+    }
+  }
+}
+check(num);
+
+console.log(result);
+```
+
+<hr>
