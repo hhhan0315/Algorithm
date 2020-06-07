@@ -7,11 +7,12 @@ function solution(name) {
       // A ~ M
       answer += value % 65;
     } else {
+      // N ~ Z
       answer += 91 - value;
     }
   }
-
-  // 좌, 우의 최소는 문자열 시작부터 끝까지 가는 경우
+  console.log(answer);
+  // A가 등장하지 않으면 으론쪽으로 쭉 이동
   let min = name.length - 1;
 
   for (let i = 0; i < name.length; i++) {
